@@ -24,11 +24,60 @@
         <button id="toggle-theme">🌙</button>
       </header>
       <section>
-        <form>
-          <label>Name:<br><input type="text" placeholder="Zach Grabowski" /></label><br><br>
-          <label>Email:<br><input type="email" placeholder="grabowskizach11@gmail.com" /></label><br><br>
-        </form>
-      </section>
+  <h2>Profile Settings</h2>
+  <form>
+    <label>
+      Full Name:<br>
+      <input type="text" placeholder="Jordan Smith" />
+    </label><br><br>
+
+    <label>
+      Email Address:<br>
+      <input type="email" placeholder="jordan@example.com" />
+    </label><br><br>
+
+    <label>
+      Bio:<br>
+      <textarea rows="4" cols="50" placeholder="A few words about yourself..."></textarea>
+    </label>
+  </form>
+</section>
+
+<section>
+  <h2>Theme Preferences</h2>
+  <p>Use the 🌙 button in the top right to toggle between light and dark mode.</p>
+</section>
+    <section>
+    <h2>Notification Settings</h2>
+    <form>
+        <label>
+        <input type="checkbox" checked />
+        Email Notifications
+        </label><br>
+        <label>
+        <input type="checkbox" />
+        SMS Notifications
+        </label><br>
+        <label>
+        <input type="checkbox" checked />
+        Push Notifications
+        </label>
+    </form>
+    </section>
+
+    <section>
+    <h2>Account Controls</h2>
+    <form>
+        <label>
+        Change Password:<br>
+        <input type="password" placeholder="New Password" />
+        </label><br><br>
+
+        <button style="background-color: crimson; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+        🗑️ Delete Account
+        </button>
+    </form>
+    </section>
     </main>
   </div>
   <script src="script.js"></script>
